@@ -1,0 +1,136 @@
+.services_section {
+    padding: 48px 24px;
+    width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .services_section-heading {
+    text-align: center;
+    padding: 16px 0;
+    font-size: 100;
+  }
+  
+  .service_cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns of equal width */
+    gap: 20px; /* Gap between cards */
+    padding: 20px;
+  }
+  
+  .service_card {
+    background-color: white;
+    cursor: pointer;
+    padding: 24px 36px;
+     /* box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.02),
+      4px 6px 20px 4px rgba(0, 0, 0, 0.19);  */
+  }
+  
+  .service_card-title {
+    text-align: center;
+  }
+  
+  .service_card:hover {
+    scale: 102%;
+    transition: all ease-in-out 0.2s;
+  }
+  
+  .service_card-content {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 16px 32px;
+  }
+  
+  .service_card-image {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    overflow: hidden;
+  }
+  
+  .service_card-description {
+    line-height: 30px;
+  }
+  
+  /* responsiveness */
+  /* Media query for tablet devices */
+  @media screen and (max-width: 1000px) {
+    .service_cards-container {
+      grid-template-columns: repeat(
+        2,
+        1fr
+      ); /* Two columns for tablets and larger */
+    }
+  
+    .services_section {
+      width: 100vw;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+  
+    .service_card {
+      padding: 8px 8px;
+      text-align: center;
+      
+    }
+  }
+/*   
+  /* Media query for mobile devices */
+  @media screen and (max-width: 768px) {
+    .service_cards-container {
+      grid-template-columns: repeat(
+        1,
+        1fr
+      ); /* Two columns for tablets and larger */
+      /* display: flex;
+      flex-direction: column;
+      width: 75vw;
+      text-align: center;
+      align-items: center;
+      justify-content: center; */
+
+
+    }
+  
+    .services_section {
+      /* width: 75%; */
+      padding: 56px 8px;
+      text-align: center;
+      text-align: center;
+      margin: auto;
+    }
+  
+    .service_card {
+      padding: 24px 8px;
+      /* width: 75vw; */
+      text-align: center;
+    }
+  
+    .service_card-title {
+      font-size: 16px;
+      text-align: center;
+    }
+  
+    .service_card-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .service_card-image {
+      width: 100px;
+      height: 80px;
+      padding: 16px 0;
+      text-align:center ;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .services_section {
+
+      max-width: 95%;
+    }
+    
+    
+  } 
