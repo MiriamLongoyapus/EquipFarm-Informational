@@ -1,21 +1,21 @@
-import Truck from "../Image/truck.png"
+import Truck from "../Image/equipment-sourcing.png";
 import Clock from "../Image/time.png";
 import Secure from "../Image/secure.png";
 
 export const servicesData = [
   {
     id: 1,
-    title: "Fast Delivery",
+    title: "Equipment sourcing",
     icon: Truck,
     description:
-      "Equipment matching - We match farmers with the right equipment for their needs.",
+      "We connect small-scale farmers with suppliers to access a variety of agricultural equipment,enhancing their farming operation.",
   },
   {
     id: 2,
     title: "Support",
     icon: Clock,
     description:
-      "Marketing - We help equipment suppliers reach a wider audience of potential customers.",
+      "We offer cost-effective agricultural equipment,enabling small-scale farmers to invest in high-quality machinery to boost productivity. ",
   },
   {
     id: 3,
