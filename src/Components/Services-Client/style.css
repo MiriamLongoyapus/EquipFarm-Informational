@@ -22,8 +22,8 @@
     background-color: white;
     cursor: pointer;
     padding: 24px 36px;
-     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.02),
-      4px 6px 20px 4px rgba(0, 0, 0, 0.19); 
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.02),
+    4px 6px 20px 4px rgba(0, 0, 0, 0.19); 
   }
   
   .service_card-title {
@@ -134,3 +134,5 @@
     
     
   } 
+
+  

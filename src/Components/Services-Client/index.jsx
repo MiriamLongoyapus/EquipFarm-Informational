@@ -9,8 +9,8 @@ const ServicesSection = () => {
 
       <div className="service_cards-container">
         {servicesData.map((service) => (
-          <div className="service_card" key={service.id}>
-            <h2 className="service_card-title">{service.title}</h2>
+          <div className="service_card" key={service.id} role="contentinfo">
+            <h2 className="service_card-title" aria-label="title">{service.title}</h2>
             <div className="service_card-content">
               <img
                 src={service.icon}
