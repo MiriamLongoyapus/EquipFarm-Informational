@@ -1,0 +1,81 @@
+.home {
+  background-image: linear-gradient(to bottom, rgba(80, 236, 13, 0.1), rgba(80, 236, 13, 0.1)), url("/public/Img/trac.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 98%;
+  height: 80vh;
+  margin-left: 1em;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  .heading{
+    color: yellow;
+  }
+     h1 {
+      font-size: 130px;
+      color: #134414 ;
+      font-weight: bold;
+
+    }
+    h3{
+      font-size: 40px;
+      color: #F5F5F8;
+      text-align: center;
+    }
+     button {
+      background-color:#FFF200;
+      color: #0B0000;
+      font-size: 20px;
+      padding: 10px 50px;
+      border: none;
+      transition: background-color 0.3s ease;
+      margin-left: 10%;
+      border-radius: 30px;
+      font-weight: bold;
+      /* margin-top: 0.2%; */
+    }
+     button:hover {
+      background-color: #39B54A;
+    }
+    @media (max-width: 768px) {
+      .home {
+        width: 100%;
+        margin-left: 0;
+        padding-top: 5px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        /* height: 1px; */
+        /* height: 0.4rem; */
+        height: 10%;
+        /* background-size: 80%;  */
+
+      }
+     
+      h1 {
+        font-size: 40px;
+        margin-left: 18%;
+        margin-top: 37%;
+      }
+      h3 {
+        font-size: 24px;
+        margin-top: 25px;
+        margin-left: 11%;
+      }
+      button {
+        font-size: 24px;
+        margin-left: 70%;
+        margin-bottom: 35%;
+      }
+    }
+
+
+
+
+
+
+
+

@@ -5,28 +5,28 @@ const Teams = () => {
   const items = [
     {
       name: "Leila Ashur",
-      title: "Mobile developer",
-      imageSrc: "./image/ashur.jpeg",
+      title: "Software Engineer",
+      imageSrc: "./Img/ashur.jpeg",
     },
     {
       name: "Ann Mwang’ombe",
-      title: "UX Researcher ",
-      imageSrc: "./image/ann.jpg",
+      title: "Software Engineer",
+      imageSrc: "./Img/ann.jpg",
     },
     {
       name: "Mercy cheptoo",
-      title: "Backend Engineer",
-      imageSrc: "./image/mercy.jpeg",
+      title: "Software Engineer",
+      imageSrc: "./Img/mercy.jpeg",
     },
     {
       name: "Miriam Longonyapus",
-      title: "Front-end developer",
-      imageSrc: "./image/miriam.jpg",
+      title: "Software Engineer",
+      imageSrc: "./Img/miriam.jpg",
     },
     {
       name: "Linah Wainaina",
-      title: "Backend Engineer",
-      imageSrc: "./image/linah.jpeg",
+      title: "Software Engineer",
+      imageSrc: "./Img/linah.jpeg",
     },
   ];
   return (
@@ -34,7 +34,7 @@ const Teams = () => {
       <div className="heading">
       <h1>Our Team</h1>
       </div>
-    <div className="container">
+    <div className="content">
       {items.map((item, index) => (
         <div className="item" key={index}>
           <img className="images" src={item.imageSrc} alt={item.name} />

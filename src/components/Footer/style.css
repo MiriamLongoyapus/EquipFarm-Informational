@@ -1,0 +1,101 @@
+.container {
+    background-color:  #D0AE52; 
+    color: whitesmoke; 
+    padding: 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    margin-top: 28rem;
+    gap: 5rem;
+    
+  }
+  .get-in-touch{
+    margin-left: 8%;
+  }
+  .contact-us{
+    margin-left: 6rem;
+  }
+  .services{
+    flex: 1; 
+    margin-left: 2rem;
+  }
+  .social-media {
+    margin-right:7em;
+  }
+  
+  h2 {
+    font-size: 1.2rem; 
+    margin-bottom: 12px; 
+    margin-right: 1rem;
+    /* margin-top: 1px; */
+  }
+  
+  p {
+    font-size: 1rem; 
+    margin-right: 5rem;
+  }
+  
+  .Icon p {
+    font-size: 1.5rem; 
+    margin-right: 10px; 
+  }
+  .facebook
+  .facebook,
+  .twitter,
+  .linkedin,
+  .instagram {
+    display: inline-block; 
+  }
+  .Follow{
+    margin-right: 4rem;
+  }
+
+  @media (max-width: 768px) {
+.container {
+  background-color: #D0AE52;
+  padding: 10px;
+  margin-top: 4rem;
+  gap: 2rem;
+}
+.facebook{
+  margin-right: 20rem;
+}
+.Icon{
+  margin-left: -12px;
+}
+.get-in-touch,
+.contact-us,
+.services,
+.social-media,
+.facebook,
+.twitter,
+.linkedin,
+.instagram {
+  margin-left: 0;
+  margin-right: 1rem;
+  position: relative;
+  left: 1rem;
+  transform: translateX(0);
+  flex-basis: 100%;
+  /* margin-top: -10px; */
+
+}
+.us {
+  margin-right: 1rem;
+  margin-left: 0;
+  flex: 1;
+  order: 1;
+  /* margin-top: -10px; */
+
+}
+.Follow{
+  margin-right: 4rem;
+  /* margin-top: 10px; */
+
+}
+.social-media {
+  margin: 1px;
+  margin-left: -12px;
+  /* margin-top: -10px; */
+}
+   }

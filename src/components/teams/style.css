@@ -7,12 +7,11 @@
     font-weight: bold;
     color: #333;
   }
-  .container {
+  .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 20px;
-    padding: 20px;
   }
   .item {
     text-align: center;
@@ -42,8 +41,9 @@
   }
   .item-name {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: semi-bold;
     margin: 10px 0;
+    color: black;
   }
   .item-title {
     font-size: 14px;

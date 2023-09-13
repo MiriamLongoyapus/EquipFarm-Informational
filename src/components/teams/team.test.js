@@ -11,23 +11,23 @@ test("renders the Teams component with content", () => {
   const items = [
     {
       name: "Leila Ashur",
-      title: "Mobile developer",
+      title: "Software Engineer",
     },
     {
       name: "Ann Mwang’ombe",
-      title: "UX Researcher",
+      title: "Software Engineer",
     },
     {
       name: "Mercy cheptoo",
-      title: "Backend Engineer",
+      title: "Software Engineer",
     },
     {
       name: "Miriam Longonyapus",
-      title: "Front-end developer",
+      title: "Software Engineer",
     },
     {
       name: "Linah Wainaina",
-      title: "Backend Engineer",
+      title: "Software Engineer",
     },
   ];
 
