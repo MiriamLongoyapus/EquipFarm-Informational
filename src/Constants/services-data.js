@@ -8,7 +8,7 @@ export const servicesData = [
     title: "Equipment sourcing",
     icon: Truck,
     description:
-      "We connect small-scale farmers with suppliers to access a variety of agricultural equipment,enhancing their farming operation.",
+      "We connect small-scale farmers with  suppliers to access a variety of agricultural equipment,enhancing their farming operation.",
   },
   {
     id: 2,

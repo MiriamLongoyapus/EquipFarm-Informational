@@ -30,7 +30,7 @@ const Teams = () => {
     },
   ];
   return (
-    <div>
+    <div className="body">
       <div className="heading">
       <h1>Our Team</h1>
       </div>

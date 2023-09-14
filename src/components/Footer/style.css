@@ -8,7 +8,15 @@
     margin-top: 28rem;
     gap: 5rem;
     
+    overflow-x: hidden;
+    overflow-y: scroll;
   }
+
+
+.body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
   .get-in-touch{
     margin-left: 8%;
   }

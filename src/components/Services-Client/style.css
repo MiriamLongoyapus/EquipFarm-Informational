@@ -5,7 +5,6 @@
   gap: 20px; /* Gap between cards */
   padding: 20px;
 }
-
 .service_card {
   background-color: white;
   cursor: pointer;
@@ -16,6 +15,8 @@
 
 .service_card-title {
   text-align: center;
+  font-size: 40px;
+  font-weight: 350;
 }
 
 .service_card:hover {
@@ -26,6 +27,9 @@
 .service_card-content {
   gap: 24px;
   padding: 16px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .service_card-image {
@@ -38,6 +42,7 @@
 .service_card-description {
   width: 100%;
   text-align: center;
+  margin-left: 0;
 }
 
 .service_card-description p {
@@ -45,14 +50,22 @@
   font-size: larger;
   line-height: 30px;
   width: 100%;
+  margin-left: 0;
+  float: left;
 }
-h1{
-  font-size: 24px;
+.services_section{
+  overflow-x: hidden;
+  overflow-y: flow;
+}
+.headers{
+  font-size: 32px;
   font-weight: bold;
-  color: #160101;
+  color: #140202;
   text-align: center;
+  margin-top: 7rem;
 
-}
+}  
+
 
 
 /* responsiveness */
@@ -70,6 +83,11 @@ h1{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+  }
+  .service_card-description {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
   }
 
   .service_card {
@@ -89,7 +107,7 @@ h1{
 
   .services_section {
     /* width: 75%; */
-    padding: 56px 8px;
+    padding: 33px 8px;
     text-align: center;
     text-align: center;
     margin: auto;
@@ -99,16 +117,35 @@ h1{
     padding: 24px 8px;
     text-align: center;
   }
+  .pr{
+    margin-left: 0;
+    float: left;
+  }
 
   .service_card-title {
-    font-size: 16px;
+    font-size: 32px;
     text-align: center;
   }
 
   .service_card-content {
     flex-direction: column;
     text-align: center;
+    margin-left: 0;
   }
+
+.service_card-description p {
+  /* text-align: center; */
+  /* font-size: larger; */
+  /* line-height: 30px; */
+  width: 100%;
+  margin-left: 0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 12px;
+
+ 
+}
 
   .service_card-image {
     width: 100px;
@@ -122,4 +159,17 @@ h1{
   .services_section {
     max-width: 95%;
   }
+  .service_card-description p {
+    font-size: 14px;
+  }
+.service_card-title {
+  font-size: 24px;
+}
+.headers{
+  margin-top: 4rem;
+}
+.headers h1{
+  font-size: 32px;
+  
+}
 }

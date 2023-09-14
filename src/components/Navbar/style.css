@@ -3,6 +3,10 @@
   color: rgb(1, 1, 1);
   padding: 20px 0;
 }
+.menu{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
 
 .navbar-container {
   display: flex;

@@ -5,10 +5,10 @@ import "./style.css";
 const ServicesSection = () => {
   return (
     <div className="services_section">
-      <div className="heading">
+      <div className="headers">
+<h1>Our Services</h1>
+      </div>     
 
-      <h1 h1 className="services_section-heading">Our Services</h1>
-      </div>
 
       <div className="service_cards-container">
         {servicesData.map((service) => (
@@ -21,7 +21,7 @@ const ServicesSection = () => {
                 className="service_card-image"
               />
               <div className="service_card-description">
-                <p>{service.description}</p>
+                <p className="pr">{service.description}</p>
               </div>
             </div>
           </div>
