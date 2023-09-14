@@ -17,7 +17,9 @@ const ServicesSection = () => {
                 alt={service.title}
                 className="service_card-image"
               />
-              <p className="service_card-description">{service.description}</p>
+              <div className="service_card-description">
+                <p>{service.description}</p>
+              </div>
             </div>
           </div>
         ))}

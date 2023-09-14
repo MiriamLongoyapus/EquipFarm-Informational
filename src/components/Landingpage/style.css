@@ -12,6 +12,9 @@
   justify-content: center;
   align-items: center;
 }
+body{
+  overflow: hidden;
+}
   .heading{
     color: yellow;
   }
@@ -64,6 +67,7 @@
         font-size: 24px;
         margin-top: 25px;
         margin-left: 11%;
+        
       }
       button {
         font-size: 24px;
@@ -72,6 +76,9 @@
       }
     }
 
+    body{
+      overflow: hidden;
+    }
 
 
 
