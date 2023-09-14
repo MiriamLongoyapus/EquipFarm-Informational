@@ -5,7 +5,10 @@ import "./style.css";
 const ServicesSection = () => {
   return (
     <div className="services_section">
-      <h1 className="services_section-heading">Our Services</h1>
+      <div className="heading">
+
+      <h1 h1 className="services_section-heading">Our Services</h1>
+      </div>
 
       <div className="service_cards-container">
         {servicesData.map((service) => (
